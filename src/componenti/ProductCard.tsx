@@ -1,11 +1,15 @@
 import { Product } from "../interface/productInterface";
 import RoundedButton from "./RoundedButton";
-
+import {useCart} from "../context/CartContext";
+import {useState} from "react";
 
 export default function ProductCard({ product }: { product: Product }){
-    const handleAddToCart = () => {
-        console.log("Ciao");
-    };
+    //const handleAddToCart = () => {
+        //console.log("Ciao");
+        const[amount, setAmount]=useState(1);
+        const{addToCart}=useCart();
+       
+    
     return (
         
 
@@ -18,7 +22,11 @@ export default function ProductCard({ product }: { product: Product }){
             <p> {product.description}</p>
         </div>
         <div>
-            <RoundedButton label ="Add to Cart" onClick={handleAddToCart} />
+            <RoundedButton label ="Add to Cart" onClick={()=>{
+                addToCart(product,amount);
+                setAmount(1);
+            }} 
+            />
         </div>
         
         </>
