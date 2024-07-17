@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import RoundedButton from "./RoundedButton";
-import "../css/Header.css";
+import CartIcon from "../assets/shopping-cart.svg";
+// import "../css/Header.css";
 
 export function Header() {
     const {totalItems} = useCart();
@@ -10,18 +11,18 @@ export function Header() {
     return (
         <header className="header">
             <div>
-                <p>Materiale didattico-pwf</p>
+                <h1>She beauty</h1>
             </div>
-             
-             <div className="right-button">
+            
+            <div className="right-button">
                 <RoundedButton
                     label={totalItems >0 ?totalItems.toString() : "0"}
+                    icon={CartIcon}
                     onClick={()=>{
                         navigate("/cart");
                     }}
                     />
-
-             </div>
+            </div>
         </header>
     ) 
 }

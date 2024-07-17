@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import MainRoutes from "./routes/mainRoutes";
 import { CartProvider } from "./context/CartContext";
-import { Header } from "./componenti/header";
+import { Header } from "./componenti/Header";
 
 function App() {
   return (

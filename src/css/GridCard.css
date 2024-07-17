@@ -1,0 +1,20 @@
+.center-grid {
+    display: grid;
+    place-items: center;
+    height: max-content;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonne uguali */
+    gap: 20px; /* Spazio tra le card, puoi modificarlo a tuo piacimento */
+}
+
+.bg-0 {
+    background-image: url(../assets/background.jpg);
+}
+
+.products-grid img {
+    width: 100%;
+    height: auto;
+}
