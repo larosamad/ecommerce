@@ -7,14 +7,20 @@
 .products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colonne uguali */
-    gap: 20px; /* Spazio tra le card, puoi modificarlo a tuo piacimento */
+    gap: 20px; /* Spazio tra le card */
 }
 
 .bg-0 {
     background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.products-grid img {
+.products-grid > div {
+    width: 100%; /* Assicurati che ogni elemento figlio riempia la colonna */
+}
+
+.products-grid img{
     width: 100%;
     height: auto;
 }
