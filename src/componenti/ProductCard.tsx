@@ -8,26 +8,23 @@ export default function ProductCard({ product }: { product: Product }){
         //console.log("Ciao");
         const[amount, setAmount]=useState(1);
         const{addToCart}=useCart();
-       
-    
     return (
         
-
         <>
 
-        <div>
-            <img src={product.image} alt={product.name}/>
-            <h3> {product.name}</h3>
-            <p> {product.price}</p>
-            <p> {product.description}</p>
-        </div>
-        <div>
-            <RoundedButton label ="Add to Cart" onClick={()=>{
-                addToCart(product,amount);
-                setAmount(1);
-            }} 
-            />
-        </div>
+            <div>
+                <img src={product.image} alt={product.name}/>
+                <h3> {product.name}</h3>
+                <p> {product.price}</p>
+                <p> {product.description}</p>
+                <RoundedButton label ="Add to Cart" onClick={()=>{
+                    addToCart(product,amount);
+                    setAmount(1);
+                }} 
+                />
+            </div>
+        
+
         
         </>
 
