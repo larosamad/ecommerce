@@ -11,11 +11,10 @@ export default function ProductCard({ product }: { product: Product }){
     return (
         
         <>
-
             <div>
                 <img src={product.image} alt={product.name}/>
                 <h3> {product.name}</h3>
-                <p> {product.price}</p>
+                <p> {product.price}€</p>
                 <p> {product.description}</p>
                 <RoundedButton label ="Add to Cart" onClick={()=>{
                     addToCart(product,amount);
@@ -23,9 +22,6 @@ export default function ProductCard({ product }: { product: Product }){
                 }} 
                 />
             </div>
-        
-
-        
         </>
 
     );

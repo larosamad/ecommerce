@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import RoundedButton from "./RoundedButton";
 import CartIcon from "../assets/shopping-cart.svg";
-// import "../css/Header.css";
+import "../css/Header.css";
 
 export function Header() {
     const {totalItems} = useCart();
@@ -10,9 +10,9 @@ export function Header() {
 
     return (
         <header className="header">
-            <div>
-                <h1>She beauty</h1>
-            </div>
+            <figure>
+                <img src="https://i.imgur.com/VPTQRGn.png" alt="She Beauty" />
+            </figure>
             
             <div className="right-button">
                 <RoundedButton

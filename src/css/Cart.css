@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-around{
+    justify-content: space-around;
+    border: 1px solid lightgray;
+
+}
+
+.flex-child{
+    display: flex;
+}
+
+.flex img{
+    width: 100px;
+}
+
+.small-size {
+    width: 10%;
+}
+
+
+.medium-size {
+    width: 220px;
+    margin: 0 auto;
+}
