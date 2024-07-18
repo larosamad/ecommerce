@@ -6,13 +6,12 @@ export default function GridCard() {
     return(
         <div className="center-grid bg-0">
             <div className="products-grid">
-            {mockProducts.map((product)=>(
-            <ProductCard key={product.id} product={product} />
-        )
-        )}
+                {mockProducts.map((product)=>(
+                <ProductCard key={product.id} product={product} />
+                )
+                )}
+            </div>
         </div>
-        </div>
-
 
     );
 }
