@@ -13,7 +13,6 @@ export default function Cart() {
     };
     const totalPrice = cart.reduce((acc, item) => acc + item.product.price * item.amount, 0);
 
-
     return (
         <div>
             <h1>Your Cart</h1>

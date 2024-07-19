@@ -3,6 +3,7 @@ import "./App.css";
 import MainRoutes from "./routes/mainRoutes";
 import { CartProvider } from "./context/CartContext";
 import { Header } from "./componenti/Header";
+import { HeaderCheckout } from "./componenti/HeaderCheckout";
 import { Footer } from "./componenti/Footer"
 
 function App() {
@@ -24,7 +25,7 @@ function ConditionalHeader() {
   const location = useLocation()
 
   if (location.pathname === "/checkout") {
-    return null
+    return <HeaderCheckout />
   }
 
   return <Header />

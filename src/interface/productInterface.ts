@@ -17,7 +17,7 @@ const mockProducts: Product[] =
         name:"Siero capelli",
         image:"https://i.imgur.com/eJW7mZr.jpeg",
         price:"9.99",
-        description:"Lorem ipsum"
+        description:"ideale per capelli sottili"
     },
 
     {
@@ -25,7 +25,7 @@ const mockProducts: Product[] =
         name:"Aqua di Gio",
         image:"https://i.imgur.com/2N5JuW4.jpeg",
         price:"49.99",
-        description:"Lorem ipsum",
+        description:"una fragranza di Alberto Morillas",
     },
 
     {
@@ -33,7 +33,7 @@ const mockProducts: Product[] =
         name:"Siero viso",
         image:"https://i.imgur.com/rKFOVQT.jpeg",
         price:"29.99",
-        description:"lorem ipsum",
+        description:"idratante e rimpolpante",
 
     },
 
@@ -42,7 +42,7 @@ const mockProducts: Product[] =
         name:"Olio viso",
         image:"https://i.imgur.com/neq1Xm2.jpeg",
         price:"39.99",
-        description:"lorem ipsum",
+        description:"per pelli mature e secche",
     },
 
     {
@@ -50,7 +50,7 @@ const mockProducts: Product[] =
         name:"Siero capelli",
         image:"https://i.imgur.com/HVMSgJ6.jpeg",
         price:"29.99",
-        description:"lorem ipsum",
+        description:"per capelli diradati",
     },
 
     {
@@ -58,7 +58,7 @@ const mockProducts: Product[] =
         name:"Set antirughe",
         image:"https://i.imgur.com/iOCZTWl.jpeg",
         price:"49.99",
-        description:"lorem ipsum",
+        description:"crema e siero per una pelle più giovane",
     },
 
     {
@@ -66,7 +66,7 @@ const mockProducts: Product[] =
         name:"Spray illuminante viso",
         image:"https://i.imgur.com/3jh0C8p.jpeg",
         price:"19.99",
-        description:"lorem ipsum",
+        description:"rinfrescante e idratante",
     },
 
     {
@@ -74,7 +74,7 @@ const mockProducts: Product[] =
         name:"Detergente viso",
         image:"https://i.imgur.com/wVCUgsn.jpeg",
         price:"16.99",
-        description:"lorem ipsum",
+        description:"per una pulizia profonda",
     },
 
     {
@@ -82,7 +82,7 @@ const mockProducts: Product[] =
         name:"Lip oil",
         image:"https://i.imgur.com/ms0oFC8.jpeg",
         price:"26.99",
-        description:"lorem ipsum",
+        description:"per labbra sempre perfette",
     },
 ];
 
