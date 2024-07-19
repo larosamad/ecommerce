@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Credits
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Logos were made with [Canva](https://www.canva.com/)
+3. Wella Oil photo by [TRAFFIC On](https://www.pexels.com/@traffic-on-383793613/)
+4. Aqua di Gio photo by [Kho Nước Hoa](https://www.pexels.com/@kho-n-c-hoa-505433892/)
+5. Besoma Cosmetics photos by [Moni Rathnak](https://www.pexels.com/@monirathnak/)
+6. Misolo Cosmetic photos by [Misolo Cosmetic](https://www.pexels.com/@misolo-cosmetic-2588316/)
+
+## Dependencies
+
+1. **react**: The main library for building the user interface.
+2. **typescript**: A superset of JavaScript that adds static type definitions, improving code reliability.
+3. **react-router-dom**: A library for handling routing in a single-page application (SPA) built with React.
 
 ## Available Scripts
 
