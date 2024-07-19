@@ -4,6 +4,7 @@ export interface RoundedButtonProps{
     label: string;
     className?: string;
     style?: string;
+    type?: string;
     onClick: () => void;
 }
 //props sta per proprietà
@@ -13,6 +14,7 @@ export default function RoundedButton(
         label: "", 
         style: "",
         className: "",
+        type: "",
         onClick: () => {} 
     }
 ) {
@@ -20,7 +22,7 @@ export default function RoundedButton(
         <button
         style ={{ borderRadius: "10px"}}
         onClick= {(e) =>{
-            e.preventDefault();//previene il comportamento predefinito di un evento
+            e.preventDefault();
             onClick();
         }}
         >
