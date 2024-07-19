@@ -21,6 +21,7 @@ export default function RoundedButton(
     return(
         <button
         style ={{ borderRadius: "10px"}}
+        className="RoundedButton"
         onClick= {(e) =>{
             e.preventDefault();
             onClick();
