@@ -1,6 +1,3 @@
-
-
-
 button {
     display: flex;
     gap: 20px;
@@ -39,4 +36,9 @@ button:focus {
 
 button:focus-visible {
     box-shadow: none;
+}
+
+
+button img{
+    max-width: 30px;
 }
