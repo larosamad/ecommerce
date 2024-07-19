@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import "../css/LoginPage.css"
-import RoundedButton from './RoundedButton';
 
 const LoginPage: React.FC = () => {
     const [email, setEmail] = useState('');
